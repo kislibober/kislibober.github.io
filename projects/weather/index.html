@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="weather-app">
+        <div class="search-box">
+            <input type="text" class = "city-input" placeholder="Введите название города...">
+            <button class = "search-btn">Узнать погоду</button>
+        </div>
+        <div class="error-message">Город не найден. Попробуйте еще раз.</div>
+
+        <div class="weather-info">
+            <h2 class="city-name">Город</h2>
+            <img src="" alt="Иконка погоды" class="weather-icon">
+            <p class="temperature">--</p>
+            <p class="description">Описание погоды</p>
+            <div class="details">
+                <p>Влажность: <span class="humidity">--%</span></p>
+                <p>Ветер: <span class="wind-speed">--м/с</span></p>
+            </div>
+        </div>
+
+        <div class="forecast-container">
+            <h3>прогноз на 5 дней</h3>
+            <div class="forecast-carousel">
+                
+            </div>
+        </div>
+    </div>
+    
+<script src="script.js"></script>
+</body>
+</html>
